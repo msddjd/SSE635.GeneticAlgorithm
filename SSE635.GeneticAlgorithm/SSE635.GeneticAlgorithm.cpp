@@ -44,7 +44,7 @@ void performMutation();
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int minimum_score = 1;
-	initializePopulation(52);
+	initializePopulation(26);
 	printPopulation();
 	calculateFitness(); //Can be improved by only calculating new chromsomes
 	printPopulation();
